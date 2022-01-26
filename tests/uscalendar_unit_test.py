@@ -2,7 +2,7 @@ import sys
 sys.path.append('../src/uscalendar/')
 import datetime
 import federal_holiday as fh
-import marketopen as mo
+import market_open as mo
 import unittest
 
 
