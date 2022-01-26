@@ -1,4 +1,5 @@
 import datetime
+import sys
 import helpers as hlp
 
 """
@@ -165,3 +166,7 @@ class MarketOpen:
 
     def market_open(self):
         return self.market_open
+
+
+if __name__ == '__main__':
+    sys.stdout.write(str(market_open(sys.argv[1])))
