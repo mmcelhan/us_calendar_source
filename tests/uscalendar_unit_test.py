@@ -1,5 +1,5 @@
 import sys
-sys.path.append('./src/uscalendar/')
+sys.path.append('../src/uscalendar/')
 import datetime
 import federal_holiday as fh
 import marketopen as mo
